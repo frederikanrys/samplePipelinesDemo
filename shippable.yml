@@ -13,8 +13,8 @@ integrations:
   hub:
     - integrationName: "shipdeploy"
       type: docker
-notifications:
-    - integrationName: "triggerDemoPipeline"
+  notifications:
+    - integrationName: "triggerDemoPipelineIntegration"
       type: webhook
       payload:
         - versionName=$BRANCH.$BUILD_NUMBER
